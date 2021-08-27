@@ -14,8 +14,13 @@ body {
 }
 
 #navbar {
-  background-color: lightslategray;
-  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 75px;
+  background-color: #333;
 }
 
 #navbar ul {
@@ -53,7 +58,7 @@ body {
 } */
 
 .showcase {
-  background: url("../images/CoverV2.png");
+  background: url("../images/CoverV1.png");
   background-attachment: fixed;
   overflow: hidden;
 
@@ -64,6 +69,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
 }
+
 .showcase > header {
   position: absolute;
   bottom: 0;
@@ -73,6 +79,7 @@ body {
   background: inherit;
   background-attachment: fixed;
 }
+
 .showcase > header::before {
   content: "";
   position: absolute;
@@ -85,6 +92,7 @@ body {
   -webkit-filter: blur(12px);
   filter: blur(12px);
 }
+
 .showcase > header > h1 {
   margin: 0;
   color: #333;
@@ -95,9 +103,9 @@ body {
   padding-top: 10px;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 /* #showcase h1 {
   color: #fff;
@@ -108,14 +116,14 @@ body {
 
 #main {
   float: left;
-  width: 70%;
+  width: 60%;
   padding: 0 30px;
   box-sizing: border-box;
 }
 
 #sidebar {
   float: right;
-  width: 30%;
+  width: 40%;
   background: #333;
   color: #fff;
   padding: 10px;
