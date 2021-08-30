@@ -1,50 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Website</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>navbar</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+    <nav>
+        <a href="#" class = "logo"> Easy Learn </a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Vocabulary</a></li>
+                <li><a href="#">Grammer</a></li>
+                <li><a href="#">Quiz</a></li> 
+                <li><a href="#">About Us</a></li>
+            </ul>
+       
+    </nav>
 
-
-  <nav id="navbar">
-    <div class="container">
-      <ul>
-        <li ><a class="brand-name" href="#">Easy English</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Help</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <section id="showcase">
-    <div class="container">
-      <h1>If you are a beginner and enthusiastic to learn English you've come to the right place
-      </h1>
-    </div>
-  </section>
-
-  <div class="container">
-    <section id="main">
-      <h1>Welcome</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        </p>
+    <section class = "banner">
+        <div class = "color-overlay"></div>
+        <div class="container-1">
+            <div class = "banner-text">
+              <h1>Start Your English Journey Now</h1>
+            </div>
+            <div>
+                <button class="button"><strong>Get Started!</strong></button>
+            </div>
+        </div>
+       
+       
     </section>
-    <aside id="sidebar">
-      <h2>How to use this platform ?</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud </p>
-    </aside>
-  </div>
+   
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var nav = document.querySelector("nav");
+            nav.classList.toggle("sticky",window.scrollY>0);
+        })
+    </script>
+
+    
 
   <footer id="main-footer">
     <p>Copyright &copy; 2021 English Learning Platform</p>
