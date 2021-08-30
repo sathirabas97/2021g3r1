@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
     margin: 0;
@@ -20,6 +21,25 @@ body
     width:80%;
     margin:auto;
     overflow:hidden;
+
+
+
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 75px;
+  background-color: #333;
+}
+
+#navbar ul {
+  float: left;
+  padding-left: 0px;
+  list-style: none;
 }
 
 
@@ -88,8 +108,12 @@ nav.sticky ul li a
 {
     color: #000;
 
+
+
+
 }
 /* ############# nav-bar #############*/
+
 
 
 /* ############   banner   ###########*/
@@ -203,4 +227,7 @@ nav.sticky ul li a
         width:100%;
         float:none;
     }
+
+
+
 }
