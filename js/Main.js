@@ -3,16 +3,17 @@ const option_list = document.querySelector(".option_list");
 const next = document.querySelector("footer .next_button");
 const bottom_ques_counter = document.querySelector("footer .total");
 const result_box = document.querySelector(".result_box");
+const restart = result_box.querySelector(".buttons .restart");
+const quit = result_box.querySelector(".buttons .quit");
 
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
-let widthValue = 0;
 
 let tick = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let cross = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 
-next.onclick = ()=>{
+next.onclick = () => {
     if(que_count < questions.length-1){
         que_count++;
         que_numb++;
@@ -23,7 +24,26 @@ next.onclick = ()=>{
     else{
         showResult();
     }
-}
+};
+
+restart.onclick = () => {
+
+    quiz_box.classList.add("activeQuiz");
+    result_box.classList.remove("activeResult");
+
+    que_count = 0;
+    que_numb = 1;
+    userScore = 0;
+
+    showQuetions(0);
+
+    next.classList.remove("show"); 
+
+};
+
+quit.onclick = () => {
+    window.location.reload();
+};
 
 // getting questions and options from array
 function showQuetions(index){
