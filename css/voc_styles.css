@@ -50,7 +50,7 @@ body{
 	
 }
 
-button{
+button {
         display: inline-block;
         padding: 10px 20px;
         border-radius: 20px;
@@ -58,18 +58,15 @@ button{
         color: white;
         font-size: 25px;
         margin-left: 55px;
-		margin-bottom: 15px;
         width: 35%;
+    }
+.button:hover{
+    background-color: #006AE3;
 }
-	
-button:hover{
-    background-color: #04AA6D;
-}
-.button:focus {
-    outline: none;
-    box-shadow: 0 0 0 5px #006AE3;
-}
-
+    .button:focus {
+        outline: none;
+        box-shadow: 0 0 0 5px #006AE3;
+    }
 .container2{
     background-image: url('../images/word.jpg');
     background-repeat: no-repeat;
@@ -77,12 +74,9 @@ button:hover{
 	width:100%;
     min-height:500px;
 	overflow:hidden;
-	padding-top: 10px;
 
 }
-.conteiner3{
-	margin: auto;
-}
+
 #intro{
     margin-top: 30px;
     margin-left: 30px;

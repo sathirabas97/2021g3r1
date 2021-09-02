@@ -1,6 +1,6 @@
 body{
 	background-color:#f4f4f4;
-  background-image: url('../images/beginner.jpg');
+  background-image: url('../vocabularyImages/beginner.jpg');
   background-size: 100% 600px;
   background-repeat: no-repeat;
 	color:#555;
@@ -8,21 +8,21 @@ body{
 	font-size:15px;
 	line-height:1.6em;
 	margin: 0px;
-  text-align: center;
+  
 }
 
 .previous {
   color: black;
   text-align: left;
   margin-left: 20px;
+  
+
 }
 
 
 table{
   margin-top: 50px;
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 150px;
 }
 
 a{
@@ -38,10 +38,8 @@ a{
   }
   
   .container{
-  
-    width:100%;
-    min-height: 500px;
-    background-size:cover;
+    justify-content: center;
+
   }
   .myButton {
     text-align: center;
@@ -56,6 +54,9 @@ a{
     border-radius: 12px;
     font-size: 15px;
     margin-left: 250px;
+    
+
+    
   }
   .myButton:hover {
     background-color: #04AA6D;
@@ -66,4 +67,5 @@ a{
     color:#fff;
     text-align: center;
     padding:20px;
+    margin-top: 170px;
 }
