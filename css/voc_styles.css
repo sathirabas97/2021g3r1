@@ -54,19 +54,23 @@ button {
         display: inline-block;
         padding: 10px 20px;
         border-radius: 20px;
+		border: 2px solid white;
         background-color: #5ccc8c;
         color: white;
         font-size: 25px;
         margin-left: 55px;
         width: 35%;
     }
-.button:hover{
-    background-color: #006AE3;
+button:hover{
+    background-color: #04AA6D;
 }
-    .button:focus {
-        outline: none;
-        box-shadow: 0 0 0 5px #006AE3;
-    }
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 5px #f0f4f8;
+}
+.myButton{
+	margin-top: 20px;	
+}
 .container2{
     background-image: url('../images/word.jpg');
     background-repeat: no-repeat;
@@ -74,7 +78,17 @@ button {
 	width:100%;
     min-height:500px;
 	overflow:hidden;
+	position: relative;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 20px;
 
+}
+.container3{
+	padding-top: 20px;
+	position:absolute;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 #intro{
