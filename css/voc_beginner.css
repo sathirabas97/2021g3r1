@@ -1,0 +1,71 @@
+body{
+	background-color:#f4f4f4;
+  background-image: url('../images/beginner.jpg');
+  background-size: 100% 600px;
+  background-repeat: no-repeat;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	line-height:1.6em;
+	margin: 0px;
+  
+}
+
+.previous {
+  color: black;
+  text-align: left;
+  margin-left: 20px;
+  
+
+}
+
+
+table{
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+a{
+  text-decoration: none; 
+}
+.topic {
+    padding: 10px;
+    color: #f4f4f4;
+    background-color: #5ccc8c;
+  }
+  h1{
+    text-align: center;
+  }
+  
+  .container{
+    justify-content: center;
+
+  }
+  .myButton {
+    text-align: center;
+    align-items: center;
+    background-color: #5ccc8c; 
+    border: 1px solid #f4f4f4; 
+    color: white; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    width: 50%; 
+    display: block; 
+    border-radius: 12px;
+    font-size: 15px;
+    margin-left: 250px;
+    
+
+    
+  }
+  .myButton:hover {
+    background-color: #04AA6D;
+  }
+  
+  #main-footer{
+    background: #5ccc8c;
+    color:#fff;
+    text-align: center;
+    padding:20px;
+    margin-top: 170px;
+}
