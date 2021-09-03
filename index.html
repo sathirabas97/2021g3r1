@@ -5,25 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>navbar</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
     <nav>
         <a href="#" class = "logo"> <h4>Easy <span>Learn</span></h4></a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Vocabulary</a></li>
-                <li><a href="#">Grammer</a></li>
-                <li><a href="#">Quiz</a></li> 
-                <li><a href="#">About Us</a></li>
-            </ul>
-       
+        <label  class="menu-btn"  onclick="myFunction()">
+            <i class="fas fa-bars" ></i>
+                <ul class = "none" id = "navul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/voc_home.html">Vocabulary</a></li>
+                    <li><a href="pages/grammer_tenses/simple_future_tense.html">Grammer</a></li>
+                    <li><a href="pages/quiz/present_quiz.html">Quiz</a></li> 
+                    <li><a href="#">About Us</a></li>
+                </ul>
+        
     </nav>
     <section>
     <div class = "banner">
         <div class = "color-overlay"></div>
         <div class="container-1">
             <div class = "banner-text">
-              <h1>Start Your English Journey Now</h1>
+              <h1>Start Your English Journey Now!</h1>
             </div>
             <div>
                 <button class="button"><strong>Get Started!</strong></button>
@@ -42,7 +45,7 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, atque ullam? 
                     
                 </p>
-                <a href="#" class = "btn">See More ...</a>
+                <a href="pages/grammer_tenses/future_contnuous_tense.html" class = "btn">See More ...</a>
             </div>
         </div>
         <div class="box">
@@ -53,7 +56,7 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, atque ullam? 
                     
                 </p>
-                <a href="#" class = "btn">See More ...</a>
+                <a href="pages/voc_home.html" class = "btn">See More ...</a>
             </div>
         </div>
         <div class="box">
@@ -64,7 +67,7 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, atque ullam? 
                     
                 </p>
-                <a href="#" class = "btn">See More ...</a>
+                <a href="pages/quiz/present_quiz.html" class = "btn">See More ...</a>
             </div>
         </div>
     </div>
