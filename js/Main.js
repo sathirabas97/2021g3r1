@@ -42,7 +42,7 @@ restart.onclick = () => {
 };
 
 quit.onclick = () => {
-    window.location.reload();
+    window.history.back();
 };
 
 // getting questions and options from array
