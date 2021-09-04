@@ -7,6 +7,36 @@ body{
 	line-height:1.6em;
 	margin:0;
 }
+
+.topnav {
+  background-color:#5ccc8c;
+  text-align: center;
+
+}
+
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 50px;
+  text-decoration: none;
+  font-size: 17px;
+  
+
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .topnav a{
+    width: 100%;
+    display: block;
+    
+  }
+}
+
 .container{
     padding-left: 20px;
     width:100%;
@@ -54,7 +84,7 @@ button {
         display: inline-block;
         padding: 10px 20px;
         border-radius: 20px;
-		border: 2px solid white;
+		    border: 2px solid white;
         background-color: #5ccc8c;
         color: white;
         font-size: 25px;
@@ -74,8 +104,8 @@ button:focus {
 .container2{
     background-image: url('../images/beginner.jpg');
     background-repeat: no-repeat;
-    background-size:cover;
-	width:100%;
+    background-size:100% 600px;
+   	width:100%;
     min-height:500px;
 	overflow:hidden;
 	position: relative;

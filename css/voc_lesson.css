@@ -45,7 +45,7 @@ a{
   
 .topnav a.active {
     color: black;
-}  
+} 
   
 
 ul{
@@ -113,9 +113,15 @@ ul{
     display: block;
     margin-bottom: 20px;
   }
+  .topnav a{
+    width: 100%;
+    display: block;
+    
+  }
   #main-footer{
     position: relative;
   }
+
 
 }
 .card {
