@@ -18,6 +18,29 @@ body{
   
 
 }
+.topnav {
+  background-color:#5ccc8c;
+  text-align: center;
+}
+
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 50px;
+  text-decoration: none;
+  font-size: 17px;
+  
+
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.active {
+  color: black;
+}  
 
 
 table{
