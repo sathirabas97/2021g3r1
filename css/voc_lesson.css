@@ -18,12 +18,16 @@ a{
     padding: 10px;
     color: #f4f4f4;
     background-color: #5ccc8c;
+    min-width: min-content;
+    
 }  
 
 
 .topnav {
     background-color:#5ccc8c;
     text-align: center;
+
+  
 }
 
 
@@ -43,7 +47,7 @@ a{
   
 .topnav a.active {
     color: black;
-}  
+} 
   
 
 ul{
@@ -67,7 +71,7 @@ ul{
   font-size: 15px;
   line-height: 1.8em;
   margin-top: auto;
-  min-width: min-content;
+  
    
  }
 
@@ -111,6 +115,22 @@ ul{
     display: block;
     margin-bottom: 20px;
   }
+  .topnav a{
+    width: 100%;
+    display: block;
+    
+  }
+  #main-footer{
+    width:100%;
+		float:none;
+    text-align: center;
+    margin-top: relative;
+    margin-top: 2000px;
+    
+    
+  }
+
+
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
