@@ -517,3 +517,15 @@ footer {
   color: #333;
   text-align: center;
 }
+
+@media (max-width: 800px) {
+  .container-row {
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .container-img {
+    flex-wrap: wrap;
+    margin-left: 25%;
+  }
+}
