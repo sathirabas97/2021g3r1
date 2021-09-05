@@ -121,12 +121,16 @@ ul{
     
   }
   #main-footer{
-    width:100%;
-		float:none;
+    position: relative;
     text-align: center;
-    margin-top: relative;
-    margin-top: 2000px;
+    width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+  
     
+  
+
+  
     
   }
 
