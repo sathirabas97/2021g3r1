@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conditionals</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <style>
+      body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+
+#navbar{
+	background-color:#5ccc8c;
+	color:white;
+    
+}
+
+
+
+/*Check!!!!!!!
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+*/
+
+#navbar ul{
+	float:left;
+	padding-left:0px;
+	list-style: none;
+    
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar li:first-child{
+	display:inline;
+	padding-right: 800px;
+}
+
+#navbar a{
+	color:black;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+#showcase{
+	background-position:center center;
+	background-repeat: no-repeat;
+
+	/*min-height:500px;*/
+	margin-bottom:30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color:#fff;
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top:80px;
+}
+
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background:#333 ;
+	color:#fff;
+	padding:25px;
+	box-sizing: border-box;
+    border-radius: 7px;
+    margin-top: 50px;
+}
+
+#main-footer{
+	background: #5ccc8c;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+}
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+        
+	}
+}
+
+.brand-name{
+	padding: 0px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+button {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 20px;
+        background-color: #5ccc8c;
+        color: white;
+        font-size: 35px;
+    }
+
+    .button:focus {
+        outline: none;
+        box-shadow: 0 0 0 5px #006AE3;
+    }
+
+    
+
+    /*For side menu*/
+    /*
+    .myButton {
+    text-align: center;
+    background-color: #5ccc8c;
+    border: 1px solid #f4f4f4;
+    color: white; 
+    padding: 10px 11px; 
+    cursor: pointer; 
+    width: 100%; 
+    display: block; 
+    border-radius: 12px;
+    font-size: 15px;
+    line-height: 1.8em;
+    margin-top: auto;
+    min-width: min-content;
+     
+   }
+  
+  .myButton:hover {
+      background-color: #04AA6D;
+  }
+
+
+  #content{
+    width: 100%;
+  
+  }
+  
+  #categories{
+    float: left;
+    width: 20%;
+    
+  
+  }
+  */
+  /*
+  ul.ba {
+    list-style-type: none;
+  }
+  */
+
+  </style>
+</head>
+<body>
+
+    <!--
+  <nav id="navbar">
+    <div class="container">
+      <ul>
+        <p style="font-size: 40px; color: white;">Conditionals</p>
+        <div style="align-content: stretch;">
+            <a href="#" class="previous" style="color: black; font-size: 25px; margin-right: 50px;">&laquo; Previous</a>
+            <a href="#" class="next" style="color: black; font-size: 25px;">Next &raquo;</a>
+        </div>
+        
+      </ul>
+    </div>
+  </nav>
+  -->
+
+  <nav id="navbar">
+    <div class="container">
+            <ul style="margin-top: 20px; margin-bottom: 20px; color: white; ">
+                <li><a href="#" style="float: right; color: white;">About Us</a></li>
+                <li><a href="pages/quiz/present_quiz.html" style="float: right; color: white;">Quiz</a></li> 
+                <li><a href="pages/grammer_tenses/simple_future_tense.html" style="float: right; color: white;">Grammar</a></li>
+                <li><a href="pages/voc_home.html " style="float: right; color: white;">Vocabulary</a></li>
+                <li><a href="index.html" style="float: right; color: white;">Home</a></li>
+                <li><a style="font-size: 45px; color: white;">Conditionals</a></li>     
+            </ul>
+    </div>
+  </nav>
+
+
+   
+  </div> 
+
+  
+  <!--Intro-->
+  <div class="container">
+    
+    <p style="font-family: 'Times New Roman'; font-size:24px; color:black; margin-left:30px;margin-right:30px;">
+        <br>&emsp;&emsp;What are conditionals in English grammar? Sometimes we call them 'if clauses'. They describe the result of something that might happen (in the present or future) or might have happened but didn't (in the past) . They are made using different English verb tenses.
+        <br><br>
+        <!--<br><br>&emsp;&emsp;In reported speech,we use a <b><i>'reporting verb'</i></b> like <i>'say'</i> or <i>'tell'</i>. If this verb is in the present tense, it's easy. We just put '[person] says' and then the sentence.
+        -->      
+    </p>
+
+    <i class="fa fa-check-circle-o" style="font-size:25px; color:black;"> 
+        <b>There are four main kinds of conditionals:</b>
+    </i>
+    
+    <p style="font-family: 'Times New Roman'; font-size:24px; color:black;">
+       
+        
+        <ul style="font-family: 'Times New Roman'; font-size:24px; color:black;">
+            <li><b> The Zero Conditional:</b><br>(if + present simple, ... present simple)
+                <br><i>Eg: If you heat water to 100 degrees, it boils.
+                </i>
+            </li>
+            <br>
+
+            <li><b> The First Conditional:</b><br>(if + present simple, ... will + infinitive)
+                <br><i>Eg: If it rains tomorrow, we'll go to the cinema.
+                </i>
+            </li>
+            <br>
+
+            <li><b> The Second Conditional:</b><br>(if + past simple, ... would + infinitive)
+                <br><i>Eg: If I had a lot of money, I would travel around the world.
+                </i>
+            </li>
+            <br>
+
+            <li><b> The Third Conditional:</b><br>(if + past perfect, ... would + have + past participle)
+                <br><i>Eg: If I had gone to bed early, I would have caught the train.
+                </i>
+            </li>
+            <br>
+            <br><br>
+            
+        </ul>         
+    </p>
+
+    <h2 style="text-align:center; font-size:32px;margin-bottom: 40px; color:#5ccc8c">The Zero Conditional</h3>
+    <p style="font-family: 'Times New Roman'; font-size:24px; color:black;">
+        <i class="fa fa-check-circle-o" style="font-size:25px; color:black;"> 
+            <b> We can make a zero conditional sentence with two present simple verbs (one in the 'if clause' and one in the 'main clause'):</b>
+        </i>
+       
+        <br><br>
+        &emsp;&emsp;<b><i>If + present simple, .... present simple.</i></b>
+        <br><br><br>
+
+        &emsp;&emsp;This conditional is used when the result will always happen. So, if water reaches 100 degrees, it always boils. It's a fact. I'm talking in general, not about one particular situation. The result of the 'if clause' is always the main clause.
+        <br>
+        The 'if' in this conditional can usually be replaced by 'when' without changing the meaning.
+        <br><br><br>
+        <b>For example:</b> <br>
+        <ul style="font-family: 'Times New Roman'; font-size:24px; color:black;">
+        <li>
+            If water <b><i>reaches</i></b> 100 degrees, it <b><i>boils</i></b>. <i>(It is always true, there can't be a different result sometimes). </i>
+            <br>  
+        </li>
+        <li>
+            If I <b><i>eat</i></b> peanuts, I <b><i>am</i></b> sick.<i> (This is true only for me, maybe, not for everyone, but it's still true that I'm sick every time I eat peanuts)</i>
+        </li>
+        
+        </ul>
+    </p>
+
+
+    <p style="font-family: 'Times New Roman'; font-size:24px; color:black;">
+        <br><br>
+        <b>Here are some more examples:
+        </b> 
+        <ul style="font-family: 'Times New Roman'; font-size:24px; color:black;">
+        <li>
+            If people <b><i>eat</i></b> too much, they <b><i>get</i></b> fat. 
+            <br>  
+        </li>
+        <li>
+            If you <b><i>touch</i></b> a fire, you <b><i>get</i></b> burned.
+        </li>
+        <li>
+            People <b><i>die</i></b> if they <b><i>don't eat.</i></b> 
+        </li>
+        <li>
+            You <b><i>get</i></b> water if you  <b><i>mix</i></b> hydrogen and oxygen.
+        </li>
+        <li>
+            Snakes<b><i> bite</i></b> if they <b><i>are</i></b>scared.
+        </li>
+        <li>
+            If babies  <b><i>are </i></b> hungry, they <b><i> cry.</i></b> 
+        </li>
+        
+        </ul>
+        <br><br>
+        
+    </p>
+
+    <!--2-->
+    <h2 style="text-align:center; font-size:32px;margin-bottom: 40px; color:#5ccc8c">The First Conditional</h3>
+        <p style="font-family: 'Times New Roman'; font-size:24px; color:black;">
+            <i class="fa fa-check-circle-o" style="font-size:25px; color:black;"> 
+                <b> The first conditional has the present simple after 'if', then the future simple in the other clause:</b>
+            </i>
+           
+            <br><br>
+            &emsp;&emsp;<b><i>if + present simple, ... will + infinitive</i></b>
+            <br><br><br>
+    
+            &emsp;&emsp;It's used to talk about things which might happen in the future. Of course, we can't know what will happen in the future, but this describes possible things, which could easily come true.
+            
+            <br><br><br>
+            <b>Here are some more examples:
+            </b> 
+            <ul style="font-family: 'Times New Roman'; font-size:24px; color:black;">
+            <li>
+                If it <b><i>rains</i></b>, I <b><i>won't go</i></b> to the park. 
+                <br>  
+            </li>
+            <li>
+                If I <b><i>study</i></b> today,I <b><i>will go</i></b> to the party tonight.
+            </li>
+            <li>
+                If I <b><i>have</i></b> enough money, I <b><i>will buy</i></b> some new clothes. 
+            </li>
+            <li>
+                She<b><i> will be</i></b> late of the train <b><i>is </i></b>delayed.
+            </li>
+            <li>
+                She<b><i> will miss</i></b> the bus if she <b><i>doesn't leave </i></b> soon.
+            </li>
+            <li>
+                If I <b><i>see</i></b> her, I<b><i> will tell</i></b> her.
+            </li>
+            
+            </ul><br><br>
+        </p>
+    
+
+        <!--3-->
+        <h2 style="text-align:center; font-size:32px;margin-bottom: 40px; color:#5ccc8c">The Second Conditional</h3>
+            <p style="font-family: 'Times New Roman'; font-size:24px; color:black;">
+                <i class="fa fa-check-circle-o" style="font-size:25px; color:black;"> 
+                    <b> The second conditional uses the past simple after if, then 'would' and the infinitive:</b>
+                </i>
+               
+                <br><br>
+                &emsp;&emsp;<b><i>if + past simple, ... would + infinitive</i></b>
+                <br><br>
+                &emsp;&emsp;<i>(We can use 'were' instead of 'was' with 'I' and 'he/she/it'. This is mostly done in formal writing).</i><br><br>
+                
+                
+                <i class="fa fa-check-circle-o" style="font-size:25px; color:black;"> 
+                    <b> It has two uses.</b>
+                </i>
+                <br>
+                <br>
+                <b>First, we can use it to talk about things in the future that are probably not going to be true. Maybe I'm imagining some dream for example.
+
+                </b> 
+                <ul style="font-family: 'Times New Roman'; font-size:24px; color:black;">
+                <li>
+                    If I <b><i>won</i></b>the lottery,I <b><i>would buy</i></b> a big house. 
+                    <br>  
+                </li>
+                <li>
+                    If I <b><i>met</i></b> the Queen of England, I<b><i>would say</i></b> hello.
+                </li>
+                <li>
+                    She <b><i>would travel</i></b> all over the world if she  <b><i>were</i></b> rich. 
+                </li>
+                <li>
+                    She<b><i> would pass</i></b> the exam if she ever <b><i>studied. </i></b>
+                </li>                
+                
+                </ul>
+            </p>
+
+                <p style="font-family: 'Times New Roman'; font-size:24px; color:black;">
+                <br>
+                <b>Second, we can use it to talk about something in the present which is impossible, because it's not true. Have a look at the examples:
+
+                </b> 
+                <ul style="font-family: 'Times New Roman'; font-size:24px; color:black;">
+                <li>
+                    If I <b><i>had</i></b> her number,I <b><i>would call</i></b> her. 
+                    <br>  
+                </li>
+                <li>
+                    If I <b><i>were</i></b> you, I<b><i>wouldn't go</i></b> out with that person.
+                </li>
+                           
+                
+                </ul>
+                <br><br>
+            </p>
+
+
+             <!--4-->
+             <h2 style="text-align:center; font-size:32px;margin-bottom: 40px; color:#5ccc8c">The Third Conditional</h3>
+                <p style="font-family: 'Times New Roman'; font-size:24px; color:black;">
+                    <i class="fa fa-check-circle-o" style="font-size:25px; color:black;"> 
+                        <b> We make the third conditional by using the past perfect after 'if' and then 'would have' and the past participle in the second part of the sentence:</b>
+                    </i>
+                   
+                    <br><br>
+                    &emsp;&emsp;<b><i>if + past perfect, ...would + have + past participle</i></b>
+                    <br><br><br>
+            
+                    &emsp;&emsp;It talks about the past. It's used to describe a situation that didn't happen, and to imagine the result of this situation.
+                    
+                    <br><br><br>
+                    <b>Here are some more examples:
+                    </b> 
+                    <ul style="font-family: 'Times New Roman'; font-size:24px; color:black;">
+                    <li>
+                        If she  <b><i>had studied</i></b>, she <b><i>would have passed</i></b> the exam. 
+                        <br>  
+                    </li>
+                    <li>
+                        If I <b><i>hadn't eaten</i></b> so much,I <b><i>wouldn't have felt</i></b> sick.
+                    </li>
+                    <li>
+                        If we <b><i>had taken</i></b> a taxi, we <b><i>would't have missed</i></b> the plane. 
+                    </li>
+                    <li>
+                        She<b><i> wouldn't have been</i></b> tired if she  <b><i>had gone </i></b>to university.
+                    </li>
+                    <li>
+                        She<b><i> would have become</i></b> a teacher if she <b><i>had gone</i></b> to university.
+                    </li>
+                    <li>
+                        He <b><i>would have been</i></b> on time for the interview if he<b><i> had left</i></b> the house at nine.
+                    </li>
+                    
+                    </ul>
+                    <br><br>
+                </p>
+
+
+</div>
+
+
+  <!--
+
+  <section id="showcase" style="margin-top: 30px;">
+    <div class="container">
+        <h1 style="font-size: 28px; color: black;">With Modal Verbs</h1>
+        <img src="images/reported_speech_2.PNG" alt="form" class="center" style="margin-top: 20px;">
+    </div>
+  </section>
+ 
+  -->
+
+
+
+
+  <div class="container">
+    <section id="main">  
+    <aside id="sidebar" style="width: 40%; margin-top: 5px;">
+      <br>
+      <h2>KEEP PRACTICING</h2>
+      <button onclick="window.location.href='/page2'" style="height:100px;width:250px; margin-left: 12px;">Attempt Quiz</button>
+    </aside>
+  </div>
+
+  <footer id="main-footer">
+    <p>Copyright &copy; 2021 English Learning Platform</p>
+  </footer>
+</body>
+</html>
