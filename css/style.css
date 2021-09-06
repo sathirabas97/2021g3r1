@@ -8,8 +8,6 @@
 }
 
 body {
-  /* background: white;
-    min-height: 200vh;*/
   font-family: "Lato", sans-serif;
   background-color: #f4f4f4;
   color: #555;
@@ -89,6 +87,7 @@ nav.sticky .logo,
 nav.sticky ul li a {
   color: #000;
 }
+
 /* ############# nav-bar #############*/
 
 /* ############   banner   ###########*/
@@ -127,13 +126,14 @@ nav.sticky ul li a {
 /* ############   banner   ###########*/
 
 .button {
-  background-color: #226924;
+  background-color: #21ac5d;
   border: none;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
@@ -188,7 +188,7 @@ nav.sticky ul li a {
 .box-header {
   text-align: center;
   padding: 50px 10px;
-  background: #327434;
+  background: #5ccc8c;
   color: #fff;
 }
 
@@ -202,7 +202,7 @@ nav.sticky ul li a {
   display: block;
   color: #fff;
   text-align: center;
-  background-color: #226924;
+  background-color: #5ccc8c;
   margin-top: 30px;
   text-decoration: none;
   padding: 8px 5px;
@@ -351,7 +351,7 @@ footer {
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #33383b;
+  background-color: rgb(71, 72, 73);
   border-radius: 2px;
 
   font-size: 20px;
@@ -362,6 +362,7 @@ footer {
   margin-right: 3px;
   margin-bottom: 5px;
 }
+
 
 /* ******************** nav bar-responsive ********************** */
 @media (max-width: 1230px) {
@@ -379,6 +380,10 @@ footer {
 
   nav.sticky .menu-btn i {
     color: #000;
+  }
+
+  nav.sticky ul li a {
+    color: rgb(255, 253, 253);
   }
 
   nav ul {
