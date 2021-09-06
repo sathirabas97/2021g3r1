@@ -60,7 +60,9 @@ button {
   width: 35%;
 }
 button:hover {
-  background-color: #04aa6d;
+  background-color: #031b22;
+  box-shadow: 0 0 10px #fff, 0 0 20px #03a9f4, 0 0 40px #03a9f4,
+    0 0 80px #03a9f4, 0 0 120px #03a9f4;
 }
 button:focus {
   outline: none;
