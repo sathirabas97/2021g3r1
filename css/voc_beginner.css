@@ -45,7 +45,7 @@ button {
         background-color: #5ccc8c;
         color: white;
         font-size: 25px;
-        margin-left: 55px;
+        margin-left: 85px;
         width: 35%;
     }
 button:hover{
@@ -76,6 +76,7 @@ button:focus {
 	position:absolute;
 	margin-left: 10%;
 	margin-right: 10%;
+	text-align: center;
 }
 
 #intro{
