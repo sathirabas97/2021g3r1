@@ -10,43 +10,7 @@ body{
 	
 }
 
-.topnav {
-  background-color:#5ccc8c;
-  text-align: center;
-  width: 100%;
-  
 
-}
-
-
-.topnav a {
-  color: #f2f2f2;
-  text-align: center;
-  padding: 5px 50px;
-  text-decoration: none;
-  font-size: 17px;
-  
-
-}
-
-.topnav a:hover {
-  color: black;
-}
-
-@media screen and (max-width: 1000px) {
-  .topnav a{
-    width: 100%;
-    display: block;
-    
-  }
-}
-
-.container{
-    padding-left: 20px;
-    width:100%;
-	margin:auto;
-	overflow:hidden;
-}
 
 #navbar{
 	background-color:#5ccc8c;
@@ -74,17 +38,32 @@ body{
 	font-size:18px;
 	padding-right:15px;
 }
-
-
-#main-footer{
-	background: #5ccc8c;
-	color:#fff;
-	text-align: center;
-	padding:20px;
-	width: 100%;
-	
-	
+.container1{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
 }
+#navbar1{
+	background-color:#5ccc8c;
+	color:white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
 
 button {
         display: inline-block;
@@ -132,3 +111,14 @@ button:focus {
     margin-left: 30px;
    
 }
+
+#main-footer{
+	background: #5ccc8c;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	width: 100%;
+	
+	
+}
+
