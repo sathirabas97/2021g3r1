@@ -1,35 +1,20 @@
 let questions = [
-    {
-        numb: 1,
-        question: "What is past tense of \"Eat\"",
-        answer: "Ate",
-        options: [
-        "Ate",
-        "Eaten",
-        "All of the above",
-        "None of the above"
-    ]
-    },
-    {
-        numb: 2,
-        question: "What is past tense of \"Run\"",
-        answer: "Ran",
-        options: [
-        "Run",
-        "Ran",
-        "Raned",
-        "None of the above"
-        ]
-    },
-    {
-        numb: 3,
-        question: "He ___ the car yesterday.",
-        answer: "drove",
-        options: [
-        "drive",
-        "driven",
-        "drived",
-        "drove"
-        ]
-    }
+  {
+    numb: 1,
+    question: "Maxwell _____ not sleeping on our sofa.",
+    answer: "is",
+    options: ["is", "are", "am", "None of the above"],
+  },
+  {
+    numb: 2,
+    question: "My mother-in-law is _____ at our house this week.",
+    answer: "staying",
+    options: ["stay", "staying", "be staying", "None of the above"],
+  },
+  {
+    numb: 3,
+    question: "I _____ at the hair salon until September.",
+    answer: "am working",
+    options: ["work", "be working", "am working", "None of the above"],
+  },
 ];

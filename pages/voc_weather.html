@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>My webSite</title>
+  <title>Weather</title>
   <link rel="stylesheet" type="text/css" href="../css/voc_lesson.css">
 </head>
 <body>
@@ -11,18 +11,19 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   
-  <div class="topic">
-     <h2>Weather</h2>
-  </div>
+  <nav id="navbar1">
+    <div class="container1">
+      <ul style="margin-top: 20px; margin-bottom: 20px;">
+        <li><a href="#" style="float: right;">About Us</a></li>
+        <li><a href="#" style="float: right;">Quiz</a></li> 
+        <li><a href="grammar_home.html" style="float: right;">Grammar</a></li>
+        <li><a href="voc_home.html" style="float: right;">Vocabulary</a></li>
+        <li><a href="../index.html" style="float: right;">Home</a></li>
+        <li><a style="font-size: 45px;">Actions</a></li>     
+    </ul>
+    </div>
+</nav>
 
-  <div class="topnav">
-    
-     <a href="action.html"> Home</a> 
-     <a href="action.html"> Vocabulary</a> 
-     <a href="action.html"> Grammer</a>
-     <a href="action.html"> Quiz</a> 
-     <a href="action.html"> About Us</a> 
-  </div>
 
 <div id="content">
 
@@ -36,8 +37,8 @@
       <li><a href="voc_places.html"> <button class="myButton">Places</button> </a> </li> 
       <li><a href="voc_cooking.html"> <button class="myButton">Cooking</button> </a> </li> 
       <li><a href="voc_weather.html"> <button class="myButton">Weather</button> </a> </li> 
-      <li><a href="voc_hobbies.html"> <button class="myButton">Hobbies</button> </a> </li> 
-      <li><a href="voc_games.html"> <button class="myButton">Games</button> </a> </li>
+      <li><a href="voc_clothes.html"> <button class="myButton">Clothes</button> </a> </li> 
+      <li><a href="voc_games.html"> <button class="myButton">Games</button> </a> </li> 
     </ul>
     
 
@@ -380,6 +381,76 @@
           var audio20=new Audio();
           audio20.src="../audio/season--_gb_1.mp3"
         </script>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <h3 class="word">Cold</h3>
+        <img class="image" src="../images/cold.jpg" alt="cold">
+        <p class="defn">A low or relatively low temperature, especially when compared with the human body</p>
+
+        <button class="audio" onclick="audio5.play();"><ion-icon name="volume-high" size="large"></ion-icon>
+        </button>
+        <script type="text/javascript">
+          var audio5=new Audio();
+          audio5.src="../audio/cold--_gb_1.mp3"
+        </script>
+
+        
+
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <h3 class="word">Hail</h3>
+        <img class="image" src="../images/hail.jpg" alt="hail">
+        <p class="defn">Pellets of frozen rain which fall in showers from cumulonimbus cloud</p>
+
+        <button class="audio" onclick="audio6.play();"><ion-icon name="volume-high" size="large"></ion-icon>
+        </button>
+        <script type="text/javascript">
+          var audio6=new Audio();
+          audio6.src="../audio/hail--_gb_1.mp3"
+        </script>
+
+        
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <h3 class="word">Warm</h3>
+        <img class="image" src="../images/warm.jpg" alt="warm">
+        <p class="defn">Having a fairly high temperature, but not hot</p>
+
+        <button class="audio" onclick="audio7.play();"><ion-icon name="volume-high" size="large"></ion-icon>
+        </button>
+        <script type="text/javascript">
+          var audio7=new Audio();
+          audio7.src="../audio/warm--_gb_1.mp3"
+        </script>
+
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <h3 class="word">Heat</h3>
+        <img class="image" src="../images/heat.jpg" alt="heat">
+        <p class="defn">The quality of being hot; high temperature</p>
+
+        <button class="audio" onclick="audio8.play();"><ion-icon name="volume-high" size="large"></ion-icon>
+        </button>
+        <script type="text/javascript">
+          var audio8=new Audio();
+          audio8.src="../audio/heat--_gb_1.mp3"
+        </script>
+
+        
       </div>
     </div>
   </div>
