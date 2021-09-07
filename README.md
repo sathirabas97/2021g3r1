@@ -26,7 +26,7 @@ This website is aimed to cater the learning resourses under main three categorie
 
 You may select _Grammar_, _Vocabulary_, if you want to learn on basics and _Quiz_ make you easy to check your knowledge on what you have learnt.
 
-### Grammer
+### Grammar
 
 You may follow main twelve tenses or other sections of grammar as per your need.
 
@@ -41,6 +41,31 @@ Each grammar section contains a complete guide with usages. If you are confident
 You may follow vocabulary in a _Beginner Level_ or _Intermediate Level_ according to your knowledge.
 
 ![Grammar Section Page](/images/readme5.png "Grammar Section Page")
+
+You may choose a category of interest you want to learn terminology.
+
+![Categories of Vocabulary Page](/images/readme6.png "Categories of Vocabulary Page")
+
+For each category, there is a large set of vocabulary with the meaning of each word. You may practice pronunciation of each word by listening to the _Narrator_ by clicking _Speaker_ option.<br>
+You may navigate to other categories using left pane.
+
+![Features of a Vocabulary Subcategory Page](/images/readme7.png "Features of a Vocabulary Subcategory Page")
+
+### Quiz
+
+Quizes can be used as a tool to check whether you have gained knowledge on a specific section which is on the Quiz Dashboard
+
+![Dashboard of Quiz](/images/readme9.png "Dashboard of Quiz")
+
+You may get a set of mcq type questions under each section you selected. Each question indicate whether you have correctly answered or not, at the moment you select an answer. You can proceed with the questions of the quiz by clicking button _Next_.
+
+![Quiz Question](/images/readme10.png "Quiz Question")
+
+After completing the quiz, number of correctly given answers will be displayed. There, you can try the same quiz again or return to the Quiz Dashboard.
+
+![Quiz Completed Page](/images/readme11.png "Quiz Completed Page")
+
+**You may find more about our website referring to the _About Us_ section and other social media platforms as indicated in _Home_ page.**
 
 ## Technologies
 
@@ -60,7 +85,7 @@ You may follow vocabulary in a _Beginner Level_ or _Intermediate Level_ accordin
 - CSS : [https://www.youtube.com/watch?v=yfoY53QXEnI](https://www.youtube.com/watch?v=yfoY53QXEnI)
 - Build a Responsive Website : [https://www.youtube.com/watch?v=p0bGHP-PXD4](https://www.youtube.com/watch?v=p0bGHP-PXD4)
 
-## Team of Developers: Members of Group 03
+## Team of Developers: Group 03
 
 - Sumudu Liyanage
 - Sathira Basnayake
