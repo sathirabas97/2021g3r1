@@ -6,40 +6,10 @@ body {
   font-size: 16px;
   line-height: 1.6em;
   margin: 0;
-}
-.container {
-  padding-left: 20px;
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
+  overflow-x: hidden;
+
 }
 
-#navbar {
-  background-color: #5ccc8c;
-  color: black;
-}
-
-#navbar ul {
-  float: left;
-  padding-left: 0px;
-  list-style: none;
-}
-
-#navbar li {
-  display: inline;
-}
-
-#navbar li:first-child {
-  display: inline;
-  padding-right: 800px;
-}
-
-#navbar a {
-  color: black;
-  text-decoration: none;
-  font-size: 18px;
-  padding-right: 15px;
-}
 
 #main-footer {
   background: #5ccc8c;
@@ -47,7 +17,35 @@ body {
   text-align: center;
   padding: 20px;
 }
+.container1{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+#navbar1{
+	background-color:#5ccc8c;
+	color:white;
+  
+}
 
+
+#navbar1 li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+  
+
+.container1 ul{
+    list-style: none;
+    margin-top: 15px;
+    padding: 10px 14px;
+    
+    
+}
 button {
   display: inline-block;
   padding: 10px 20px;
@@ -56,13 +54,11 @@ button {
   background-color: #5ccc8c;
   color: white;
   font-size: 25px;
-  margin-left: 55px;
+  margin-left: 85px;
   width: 35%;
 }
-button:hover {
-  background-color: #031b22;
-  box-shadow: 0 0 10px #fff, 0 0 20px #03a9f4, 0 0 40px #03a9f4,
-    0 0 80px #03a9f4, 0 0 120px #03a9f4;
+button:hover{
+  background-color: #04AA6D;
 }
 button:focus {
   outline: none;
