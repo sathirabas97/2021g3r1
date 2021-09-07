@@ -1,31 +1,53 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Past Perfect Continuous</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-  <style>
-      body{
-	background-color:#f4f4f4;
-	color:#555;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:16px;
-	line-height:1.6em;
-	margin:0;
-}
+  <head>
+    <title>Past Perfect Continuous</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background-color: #f4f4f4;
+        color: #555;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 1.6em;
+        margin: 0;
+      }
 
-.container{
-	width:80%;
-	margin:auto;
-	overflow:hidden;
-}
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
 
+      #navbar {
+        background-color: #5ccc8c;
+        color: white;
+      }
 
-#navbar{
-	background-color:#5ccc8c;
-	color:white;
-}
+      #navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      #navbar li a {
+        display: block;
+        color: white;
+        text-align: left;
+        padding: 16px;
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+      /*
 
 #navbar ul{
 	float:left;
@@ -48,89 +70,84 @@
 	font-size:18px;
 	padding-right:15px;
 }
+*/
+      #showcase {
+        background-position: center center;
+        background-repeat: no-repeat;
 
-#showcase{
-	background-position:center center;
-	background-repeat: no-repeat;
+        /*min-height:500px;*/
+        margin-bottom: 40px;
+        text-align: center;
+      }
 
-	/*min-height:500px;*/
-	margin-bottom:40px;
-	text-align: center;
-}
+      #showcase h1 {
+        color: #fff;
+        font-size: 50px;
+        line-height: 1.6em;
+        padding-top: 80px;
+      }
 
-#showcase h1{
-	color:#fff;
-	font-size:50px;
-	line-height: 1.6em;
-	padding-top:80px;
-}
+      #main {
+        float: left;
+        width: 70%;
+        padding: 0 30px;
+        box-sizing: border-box;
+      }
 
-#main{
-	float:left;
-	width:70%;
-	padding:0 30px;
-	box-sizing: border-box;
-}
+      #sidebar {
+        float: right;
+        width: 30%;
+        background: #333;
+        color: #fff;
+        padding: 25px;
+        box-sizing: border-box;
+        border-radius: 7px;
+        margin-top: 50px;
+      }
 
-#sidebar{
-	float:right;
-	width:30%;
-	background:#333 ;
-	color:#fff;
-	padding:25px;
-	box-sizing: border-box;
-    border-radius: 7px;
-    margin-top: 50px;
-}
+      #main-footer {
+        background: #5ccc8c;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+      }
 
-#main-footer{
-	background: #5ccc8c;
-	color:#fff;
-	text-align: center;
-	padding:20px;
-	margin-top:40px;
-}
+      @media (max-width: 600px) {
+        #main {
+          width: 100%;
+          float: none;
+        }
 
-@media(max-width:600px){
-	#main{
-		width:100%;
-		float:none;
-	}
+        #sidebar {
+          width: 100%;
+          float: none;
+        }
+      }
 
-	#sidebar{
-		width:100%;
-		float:none;
-        
-	}
-}
+      .brand-name {
+        padding: 0px;
+        font-weight: bold;
+        font-size: 30px;
+      }
 
-.brand-name{
-	padding: 0px;
-	font-weight: bold;
-	font-size: 30px;
-}
-
-button {
+      button {
         display: inline-block;
         padding: 10px 20px;
         border-radius: 20px;
         background-color: #5ccc8c;
         color: white;
         font-size: 35px;
-    }
+      }
 
-    .button:focus {
+      .button:focus {
         outline: none;
-        box-shadow: 0 0 0 5px #006AE3;
-    }
-
-
-
-  </style>
-</head>
-<body>
-
-<!--
+        box-shadow: 0 0 0 5px #006ae3;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
   <nav id="navbar">
     <div class="container">
       <ul>
@@ -145,61 +162,82 @@ button {
   </nav>
   -->
 
-  <nav id="navbar">
+    <nav id="navbar">
+      <div class="container">
+        <ul style="margin-top: 20px; margin-bottom: 20px; color: white">
+          <li>
+            <a href="../../index.html#aboutus" style="float: right">About Us</a>
+          </li>
+          <li>
+            <a href="../quiz/quiz_dashboard.html" style="float: right">Quiz</a>
+          </li>
+          <li>
+            <a href="../grammar_home.html" style="float: right">Grammar</a>
+          </li>
+          <li>
+            <a href="../voc_home.html " style="float: right">Vocabulary</a>
+          </li>
+          <li><a href="../../index.html" style="float: right">Home</a></li>
+          <li><a style="font-size: 45px">Past Perfect Continuos Tense</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="showcase">
+      <div class="container">
+        <img
+          src="images/5-past_perfect_continous.PNG"
+          alt="form"
+          class="center"
+          style="margin-top: 60px"
+        />
+      </div>
+    </section>
+
     <div class="container">
-            <ul style="margin-top: 20px; margin-bottom: 20px; color: white; ">
-                <li><a href="#" style="float: right; color: white;">About Us</a></li>
-                <li><a href="pages/quiz/present_quiz.html" style="float: right; color: white;">Quiz</a></li> 
-                <li><a href="pages/grammer_tenses/simple_future_tense.html" style="float: right; color: white;">Grammar</a></li>
-                <li><a href="pages/voc_home.html " style="float: right; color: white;">Vocabulary</a></li>
-                <li><a href="index.html" style="float: right; color: white;">Home</a></li>
-                <li><a style="font-size: 45px; color: white;">Past Perfect Continuous Tense</a></li>     
-            </ul>
-    </div>
-  </nav>
+      <section id="main">
+        <h1 style="font-size: 40px">Usage</h1>
 
-
-  <section id="showcase">
-    <div class="container">
-        <img src="images/5-past_perfect_continous.PNG" alt="form" class="center" style="margin-top: 60px; ">
-    </div>
-  </section>
-
-  <div class="container">
-    <section id="main">
-      <h1 style="font-size: 40px; ">Usage</h1>
-
-        <p style="font-size:24px; color:black;">
-            The past perfect continuous is partly like the present perfect continuous, but it refers to a continuous action that was finished at some point in the past. 
+        <p style="font-size: 24px; color: black">
+          The past perfect continuous is partly like the present perfect
+          continuous, but it refers to a continuous action that was finished at
+          some point in the past.
         </p>
-        <br>
+        <br />
 
         <h2>More Examples:</h2>
 
-      
-    <i class="fa fa-caret-square-o-right" style="font-size:24px; color:black;margin-left: 40px;"> 
-      I recognized that I had been doing nonsense things to change her.
-    </i><br><br><br>
+        <i
+          class="fa fa-caret-square-o-right"
+          style="font-size: 24px; color: black; margin-left: 40px"
+        >
+          I recognized that I had been doing nonsense things to change her. </i
+        ><br /><br /><br />
 
-   
-    <i class="fa fa-caret-square-o-right" style="font-size:24px; color:black;margin-left: 40px;"> 
-        Jim and Laura had not been working at the same place for years before they saw each other last month.
-     </i><br><br><br>
+        <i
+          class="fa fa-caret-square-o-right"
+          style="font-size: 24px; color: black; margin-left: 40px"
+        >
+          Jim and Laura had not been working at the same place for years before
+          they saw each other last month. </i
+        ><br /><br /><br />
 
-    
-    <i class="fa fa-caret-square-o-right" style="font-size:24px; color:black;margin-left: 40px;"> 
-        He had been waiting for me for hours before I came.
-     </i><br><br><br>
+        <i
+          class="fa fa-caret-square-o-right"
+          style="font-size: 24px; color: black; margin-left: 40px"
+        >
+          He had been waiting for me for hours before I came. </i
+        ><br /><br /><br />
 
-    
-    <i class="fa fa-caret-square-o-right" style="font-size:24px; color:black;margin-left: 40px;"> 
-        Had you been studying Spanish for 7 years before you moved to Spain?
-     </i><br><br><br>
-
-
-    </section >
-    <aside id="sidebar">
-    <!--
+        <i
+          class="fa fa-caret-square-o-right"
+          style="font-size: 24px; color: black; margin-left: 40px"
+        >
+          Had you been studying Spanish for 7 years before you moved to Spain? </i
+        ><br /><br /><br />
+      </section>
+      <aside id="sidebar">
+        <!--
       <h2>Signal Words:</h2>
       <p style="font-size: 20px; color: white;">
         Always, usually, often, sometimes, seldom, never, every day, every week, every month, every year, on Sundays, after school, before school.
@@ -207,14 +245,19 @@ button {
 
       <br>
     -->
-    
-      <h2>KEEP PRACTICING</h2>
-      <button onclick="window.location.href='/page2'" style="height:100px;width:250px; margin-left: 30px;">Attempt Quiz</button>
-    </aside>
-  </div>
 
-  <footer id="main-footer">
-    <p>Copyright &copy; 2021 English Learning Platform</p>
-  </footer>
-</body>
+        <h2>KEEP PRACTICING</h2>
+        <a href="../quiz/past_perfect_continuous_quiz.html">
+          <button style="height: 100px; width: 250px; margin-left: 30px">
+            Attempt Quiz
+          </button>
+        </a>
+        <!-- <button onclick=window.location.href='../quiz/past_perfect_continuous_quiz.html' style="height:100px;width:250px; margin-left: 30px;">Attempt Quiz</button> -->
+      </aside>
+    </div>
+
+    <footer id="main-footer">
+      <p>Copyright &copy; 2021 English Learning Platform</p>
+    </footer>
+  </body>
 </html>
