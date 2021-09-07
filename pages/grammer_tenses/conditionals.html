@@ -28,7 +28,21 @@
     
 }
 
-
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
 
 /*Check!!!!!!!
 .sticky {
@@ -38,6 +52,7 @@
 }
 */
 
+/*
 #navbar ul{
 	float:left;
 	padding-left:0px;
@@ -60,6 +75,7 @@
 	font-size:18px;
 	padding-right:15px;
 }
+*/
 
 #showcase{
 	background-position:center center;
@@ -202,12 +218,12 @@ button {
   <nav id="navbar">
     <div class="container">
             <ul style="margin-top: 20px; margin-bottom: 20px; color: white; ">
-                <li><a href="#" style="float: right; color: white;">About Us</a></li>
-                <li><a href="pages/quiz/present_quiz.html" style="float: right; color: white;">Quiz</a></li> 
-                <li><a href="pages/grammer_tenses/simple_future_tense.html" style="float: right; color: white;">Grammar</a></li>
-                <li><a href="pages/voc_home.html " style="float: right; color: white;">Vocabulary</a></li>
-                <li><a href="index.html" style="float: right; color: white;">Home</a></li>
-                <li><a style="font-size: 45px; color: white;">Conditionals</a></li>     
+                <li><a href="../../index.html#aboutus" style="float: right;">About Us</a></li>
+                    <li><a href="../quiz/quiz_dashboard.html" style="float: right;">Quiz</a></li> 
+                    <li><a href="../grammar_home.html" style="float: right;">Grammar</a></li>
+                    <li><a href="../voc_home.html " style="float: right;">Vocabulary</a></li>
+                    <li><a href="../../index.html" style="float: right;">Home</a></li>
+                    <li><a style="font-size: 45px;">Conditionals</a></li>        
             </ul>
     </div>
   </nav>
@@ -485,7 +501,7 @@ button {
     <aside id="sidebar" style="width: 40%; margin-top: 5px;">
       <br>
       <h2>KEEP PRACTICING</h2>
-      <button onclick="window.location.href='/page2'" style="height:100px;width:250px; margin-left: 12px;">Attempt Quiz</button>
+      <button onclick=window.location.href='../quiz/future_continuous_quiz.html' style="height:100px;width:250px; margin-left: 12px;">Attempt Quiz</button>
     </aside>
   </div>
 
